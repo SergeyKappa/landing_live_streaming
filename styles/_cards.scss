@@ -17,12 +17,12 @@
     }
 
     &__title{
-        @include m.font(18px, 500, v.$color_black)
+        @include m.font(18px, 500, v.$color_black);
     }
 
     &__desc{
         text-align: center;
-        @include m.font(16px, 300, v.$color_black)
+        @include m.font(16px, 300, v.$color_black);
     }
     &:hover{
         cursor: pointer;
